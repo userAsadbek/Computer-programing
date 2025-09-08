@@ -1,0 +1,96 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+// TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+int main() {
+    int number=24;
+    float pi=3.14;
+    double number1=45.1234;
+
+    bool bollean=true;
+    char a='A';
+
+ cout<<"value of float is "<<pi<<" and size is "<<sizeof(pi)<<endl;
+     cout<<"value of double is "<<number1<<" and size of it "<<sizeof(number1)<<endl;
+    cout<<"value of integer is "<<number<<" and size of it "<<sizeof(number)<<endl;
+    cout<<"value of boolean is "<<bollean<<" and size of it "<<sizeof(bollean)<<endl;
+    cout<<"value of char is "<<a<<" and size of it "<<sizeof(a)<<endl<<endl; // problem 1
+
+    // problem 2
+    cout<<"my full name is Umidullayev Asadbek"<<endl;
+    cout<<"my id 250123"<<endl;
+    cout<<" my fav song gangsta"<<endl;
+    cout<<" fav move is avenger"<<endl<<endl;
+     // p3
+    cout<<" \"I'm standing\" on the edge of some crazy cliff."<<endl;
+    cout<<" what  i have to do, I have to catch everbody\\ "<<endl;
+    cout<<"if they start to go over the cliff--- I mean\\"<<endl;
+    cout<<"\\if they re running and they dont ""<<endl";
+    cout<<"look where they re going I have to come out "<<endl;
+    cout<<" from some where and \t catch them"<<endl<<endl;
+
+
+    //p4
+    int ar=189;
+    char b='B';
+   int bdec=b;
+    float flo=ar/3;
+    float flo1=(ar+b)/5;
+    int pos=(ar/10)-1;
+    char c=b+pos;
+    cout<<flo<<" "<<flo1<<" "<<bdec<<" "<<c<<endl<<endl;
+
+ //p5
+    int sum=12+38;
+    int product=12*38;
+    cout<<sum<<" is sum "<<endl;
+    cout<<product<<" is product"<<endl;
+    //p6
+    double z1,z2;
+    cout<<"enter number 1";
+    cin>>z1;
+    cout<<"enter number 2";
+    cin>>z2;
+    double z3=z1+z2;
+    cout<<z3<<" is sum "<<endl;
+    //p7
+    double x,y;
+    cout<<"enter x";
+    cin>>x;
+    cout<<"enter y";
+    cin>>y;
+    double t=3*(pow(x,2)+3)/((y/4)+3);
+    cout<<t<<" as result "<<endl;
+   //p8
+
+ double sp,r,d;
+
+    cout<<"enter diametr of sphera";
+    cin>>d;
+    r=d/2;
+    double sphera=r*r*4*pi;
+    cout<<sphera<<" is area of sphera "<<endl;
+
+  //p9
+    double acc,v1,v2,t2;
+    cout<<"enter velocity";
+    cin>>v1;
+    cout<<"enter velocity";
+    cin>>v2;
+    cout<<" enter seconds";
+    cin>>t2;
+    double akk=(v1-v2)/t2;
+    cout<<akk<<endl;
+    //p10
+    double distance,gallon,price,cost;
+    cout<<"enter distance";
+    cin>>distance;
+    cout<<"enter one gallon travel";
+    cin>>gallon;
+    cout<<"enter price of fuel";
+    cin>>price;
+    cost=distance/gallon*price;
+    cout<<cost<<"$ cost of trip "<<endl;
+    return 0;
+    // TIP See CLion help at <a href="https://www.jetbrains.com/help/clion/">jetbrains.com/help/clion/</a>. Also, you can try interactive lessons for CLion by selecting 'Help | Learn IDE Features' from the main menu.
+}
