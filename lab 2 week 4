@@ -15,7 +15,7 @@ int main() {
          default :cout<<"Invalid input!";
  }
      cout<<endl<<endl;
-    problem 11
+   //problem 11
      int grade;
      cout << "Enter your grade: ";
      cin >> grade;
@@ -43,7 +43,7 @@ int main() {
          case 0:cout<<"Your grade is F";
              break;
          default:cout<<"Your grade is not valid ";
-     }
+     } //problem 12
     cout<<endl<<endl<<endl;
      int a,b,c,angles;
      cout<<"Enter three angles of triangle ";
@@ -62,7 +62,7 @@ int main() {
          cout<<"  invalid input";
      }
   cout<<endl<<endl;
-
+  //problem 13
      char input;
  cout<<"Enter character i will tell  you it is upper or loves case";
      cin>>input;
@@ -74,7 +74,7 @@ int main() {
      else
          cout<<"it is not alphabet ";
      cout<<endl<<endl;
-
+  //problem 14
      int pack1,weight1,weight2,pack2,differnce;
      cout<<"Enter the package 1 weight:";
      cin>>weight1;
@@ -93,7 +93,8 @@ int main() {
      else if (differnce<0)
          cout<<"\n Package 1 is better option ";
      else
-         cout<<"\n They equal price";
+         cout<<"\n They equal price"; 
+//prorblem 15
   int threedigits,reverse=0;
      cout<<"Enter three digits numbers: ";
      cin>>threedigits;
@@ -106,7 +107,7 @@ int main() {
             cout<<"It isa palindrome."<<endl;}
             else
                cout<<"It is not palindrome."<<endl;
- 
+ //problem 16
 
    char language;
      cout<<"Enter language option"<<endl;
@@ -127,7 +128,7 @@ int main() {
              break;
              default:cout<<"I dont know this language"<<endl;
      }
-
+  //problem 17
   int r=10,x0=0,y0=0,x1,y1,line;
      cout<<"Enter the value of x:";
    cin>>x1;
@@ -138,7 +139,7 @@ int main() {
          cout<<"Entered function is inner circle";}
          else
              cout<<"Entered function is outer circle";
-
+     //problem 18
   double gpa;
  cout<<"Enter GPA: ";
  cin>>gpa;
